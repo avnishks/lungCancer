@@ -18,7 +18,7 @@ excludeList = exclude.getExcludeFiles('NSCLC_RT')
 host = socket.gethostname()
 if host == "cibl-thinkpad":
   baseDir = os.path.normpath('/home/avnishks/dfci/segmentation/Images')
-  numCores = 2
+  numCores = 4
 elif host == "R2Q5":
   baseDir = os.path.normpath('/data/Data_DeepLung_1/2_Data_NORM_nrrd')
   numCores = 4
